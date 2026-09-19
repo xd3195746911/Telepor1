@@ -5,7 +5,7 @@ _G.MynxxInvisAuto = false
 _G.MynxxAutoKickOnSteal = false
 _G.MynxxAutoBuy = false
 if _G.MynxxStealMode == nil then _G.MynxxStealMode = "priority" end
-if _G.MynxxAutoTP == nil then _G.MynxxAutoTP = true end
+_G.MynxxAutoTP == false
 
 if not game:IsLoaded() then game.Loaded:Wait() end
 
